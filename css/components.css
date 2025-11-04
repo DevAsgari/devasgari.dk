@@ -1,0 +1,91 @@
+/* ===========================
+   Skills Section
+   =========================== */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 405px;
+}
+
+.skills-item {
+  max-width: 12rem;
+  background-color: var(--color-taupe);
+  padding: 1rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* ===========================
+   Loading Screen Animation
+   =========================== */
+.animation-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-taupe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  animation: fadeOut 3s ease-in-out;
+  transition-delay: 1.5s;
+  margin: 0;
+  padding: 0;
+}
+
+.animation-text {
+  color: var(--color-primary-text);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.animate-up {
+  display: block;
+  animation: slideUpDown 2.8s ease-in-out;
+}
+
+.animate-down {
+  display: block;
+  animation: slideDownUp 2.8s ease-in-out;
+}
+
+/* ===========================
+   Keyframe Animations
+   =========================== */
+@keyframes slideUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes slideDownUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
