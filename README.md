@@ -1,17 +1,20 @@
-# Maria Asgari - Frontend Developer
+# devasgari.dk - Portfolio Website
 
-![Project Preview](/images/preview.png)
+My personal portfolio website showcasing projects, skills, and background.
 
-This website serves as my online portfolio and showcases my projects, skills, and background. 
+## What it does
 
-## Technologies
+- Displays my software development projects
+- Shows my technical skills and experience
+- Provides contact information
+- Works on all devices (mobile, tablet, desktop)
 
-- HTML
-- CSS
-- JavaScript
+## Built with
 
-## Features
+- HTML, CSS, and JavaScript
+- No frameworks - built from scratch
+- Google Fonts (Lora)
 
-- Responsive design with media queries, adaptive navigation & Flexbox
-- Dynamic animations using CSS and JavaScript
-- Portfolio section highlighting projects
+## View online
+
+Visit [devasgari.dk](https://devasgari.dk)
