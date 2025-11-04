@@ -13,7 +13,6 @@ My personal portfolio website showcasing projects, skills, and background.
 
 - HTML, CSS, and JavaScript
 - No frameworks - built from scratch
-- Google Fonts (Lora)
 
 ## View online
 
